@@ -1,0 +1,24 @@
+EXAMINATION SCHEDULING USING PSO
+Harshul Jain
+
+File Structure
+	|____	ExamScheduling/	Contains the compiled classes
+	|____	javadoc/	It contains the api documentation of the project.
+	|____	src/		It contains the source ".java" files.
+	|____	ExamScheduling	Executable ".jar" file. 
+	|____	Report.docx	It dexcribes the algorithm and problem we have solved
+Rest of the files are input files. They contain the enrollment number of the 
+students undertaking this course. 
+
+In order to run the program, use the terminal and change the directory to current directory.
+
+java ExamScheduling.Main 305 304 306 205 206
+java ExamScheduling.Main 305 304 307 205 208
+etc....
+OR
+run 
+sh ./run.sh
+from the terminal
+It uses 8 examination slots.
+
+
